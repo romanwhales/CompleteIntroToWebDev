@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+.logo-nav {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  align-items: center;
+  padding: 15px;
+}
+.nav-img {
+  width: 30px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-areas: "items personal-info";
+}
+
+.main-table {
+  width: 100%;
+}
